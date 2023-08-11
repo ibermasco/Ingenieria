@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Estilos generales */
+        html {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            min-height: 100vh;
+            /* Establece el tamaño mínimo del cuerpo como el 100% de la altura de la ventana gráfica (viewport height) */
+            display: flex;
+            flex-direction: column;
+            /* Alinea los elementos verticalmente */
+        }
+
+        .u-layout {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* Estilos para la sección izquierda */
+        .u-layout-cell-1 {
+            flex: 1;
+            background-color: #333;
+            color: white;
+            padding: 40px;
+        }
+
+        .u-text-1 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .u-text-2 {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .u-text-3,
+        .u-text-4,
+        .u-text-5,
+        .u-text-6 {
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        .u-text-7 {
+            font-size: 12px;
+            margin-top: 20px;
+        }
+
+        .u-btn-1 {
+            font-size: 12px;
+            padding: 10px 20px;
+            background-color: #e74c3c;
+            color: white;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 5px;
+        }
+
+        /* Estilos para la sección derecha */
+        .u-layout-cell-2 {
+            flex: 1;
+            background-image: url(img/barberia1_0.jpg);
+            background-size: cover;
+            background-position: center;
+            min-height: 400px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="u-layout">
+        <div class="u-layout-row">
+            <div
+                class="u-container-style u-image u-image-default u-layout-cell u-size-31-lg u-size-35-xl u-size-60-md u-size-60-sm u-size-60-xs u-image-1">
+            </div>
+            <div
+                class="u-align-left u-container-style u-layout-cell u-shape-rectangle u-size-25-xl u-size-29-lg u-size-60-md u-size-60-sm u-size-60-xs u-layout-cell-1">
+                <div class="u-container-layout u-valign-middle u-container-layout-1">
+                    <h6 class="u-text u-text-1">Bienvenido a</h6>
+                    <h2 class="u-text u-text-2">BarberShop_usb</h2>
+                    <h6 class="u-text u-text-3">254 W 27ST ST, NUEVA YORK , Nueva York 10011</h6>
+                    <h6 class="u-text u-text-4">(212) 123-4567</h6>
+                    <h6 class="u-text u-text-5">341 W 11ST ST, NUEVA YORK , Nueva York 10022</h6>
+                    <h6 class="u-text u-text-6">(212) 123-4567</h6>
+                    <p class="u-text u-text-7">Imagen de <a href="https://www.freepik.com/photos/woman"
+                            class="u-active-none u-border-1 u-border-active-palette-4-base u-border-grey-75 u-border-hover-palette-4-base u-border-no-left u-border-no-right u-border-no-top u-btn u-button-link u-button-style u-hover-none u-none u-text-body-color u-btn-1"
+                            target="_blank">Freepik</a></p>
+                    <a href="https://nicepage.com/html5-template"
+                        class="u-active-palette-4-base u-align-center u-black u-border-none u-btn u-btn-round u-button-style u-hover-palette-4-base u-radius-5 u-text-active-white u-text-hover-white u-btn-2">Libro
+                        en línea</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

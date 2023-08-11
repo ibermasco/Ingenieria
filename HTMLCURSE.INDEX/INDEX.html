@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>BarberShop_usb</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        html {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            min-height: 100vh;
+            /* Establece el tamaño mínimo del cuerpo como el 100% de la altura de la ventana gráfica (viewport height) */
+            display: flex;
+            flex-direction: column;
+            /* Alinea los elementos verticalmente */
+        }
+
+
+        /* Estilos para la barra de menú */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            z-index: 1000;
+            background-color: color(srgb red green blue);
+
+        }
+
+        /* Estilos para los enlaces de la barra de menú */
+        .navbar a {
+            float: left;
+            display: block;
+            color: blanchedalmond;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Estilos para el título en la barra de menú */
+        .navbar .title {
+            float: right;
+            font-size: 20px;
+            padding: 14px 16px;
+            color: blanchedalmond;
+        }
+
+        /* Cambio de color al pasar el ratón por encima de los enlaces */
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        /* Estilos para el titulo */
+        .welcome-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #333;
+            color: white;
+            padding: 60px 0;
+            background-image: url('img/barberia1_0.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+
+        .welcome-text {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .welcome-image {
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+            flex: 1;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .about-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f9f9f9;
+            padding: 60px 0;
+        }
+
+        .about-image {
+            flex: 1;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .about-content {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .image-credit {
+            margin-top: 10px;
+            font-size: 12px;
+            color: #666;
+        }
+
+        .image-credit a {
+            text-decoration: none;
+            color: #666;
+        }
+
+        footer {
+            background-color: #333;
+            padding: 3rem;
+            color: #fff;
+        }
+
+        footer section {
+            float: right;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        footer a {
+            transition: color 0.3s ease;
+            color: white;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: cornflowerblue;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!--Contenido de barra de menu-->
+    <header id="inicio">
+        <div class="navbar">
+            <span class="title">BarberShop_usb</span>
+            <a href="#inicio">Inicio</a>
+            <a href="file:///C:/Users/iverm/OneDrive/Escritorio/HTMLCURSE.INDEX/servicio2.html">Servicios</a>
+            <a href="#portafolio">Portafolio</a>
+            <a href="file:///C:/Users/iverm/OneDrive/Escritorio/HTMLCURSE.INDEX/Contactos.html">Contacto</a>
+        </div>
+    </header>
+    <!--Contenido de la pagina web -->
+
+    <div class="welcome-section">
+        <div class="welcome-text">
+            <h2>Bienvenido a Barbería USB</h2>
+            <p>Experimenta un servicio de primera clase en cortes de pelo y cuidado de barba. Nuestros expertos barberos
+                están aquí para brindarte una experiencia de calidad.</p>
+        </div>
+        <div class="welcome-image">
+            <img src="img/barberia2703.webp" height="500px">
+        </div>
+    </div>
+
+    <div class="about-section">
+        <div class="about-content">
+            <h2>Acerca de Nuestra Barbería</h2>
+            <p>Somos una barbería dedicada a proporcionarte servicios de alta calidad para que te sientas y luzcas mejor
+                que nunca. Nuestros profesionales altamente capacitados están aquí para satisfacer tus necesidades de
+                cuidado personal.</p>
+        </div>
+        <div class="about-image">
+            <img src="img/barba.jpg" alt="Imagen de la barbería">
+        </div>
+    </div>
+
+    <div class="services-container">
+        <!-- Bloques de servicio -->
+    </div>
+
+    <h2>El Arte de la Barberia</h2>
+    <p>La pandemia, que azotó al sector de la belleza con las restricciones al funcionamiento <br> de las
+        peluquerías y
+        barberos y la reducción de la disponibilidad económica de los consumidores, ha pasado y el mercado se
+        recupera
+        rápidamente.
+        Gracias al mayor cuidado que los hombres dedican a su apariencia ya los cambios de moda, los hombres llenan
+        las
+        agendas de las barberías de toda colombia. </p>
+    <a target="_blank"
+        href="https://diadema.academy/es/diventare-barber-larte-della-cura-della-barba-e-dei-capelli-delluomo/?gclid=Cj0KCQjw_7KXBhCoARIsAPdPTfjsjXZ08jkJ8BiqbzcHLlWLLoW0I-cXG1f2ZG5AiU6lgJ5XNMveRlEaAnUuEALw_wcB">
+        Referencia</a>
+    <div class="about-image"><img src="img/barberia2703.webp" height="400"></div>
+
+    </section>
+    <footer>
+        <section>
+            <a href="#inicio">ir al inicio</a>
+            <br>
+            <a href="mailto:ivermasco5@gmail.com">Contactame aqui</a>
+        </section>
+        <p>Copyright 2023</p>
+        <div class="image-credit">
+            Imagenes tomadas de <a href="https://www.larepublica.co/ocio/la-evolucion-de-la-estetica-masculina-2488486"
+                target="_blank">la republica</a>
+            <br>
+            Imagenes tomadas de <a href="https://www.larepublica.co/ocio/la-evolucion-de-la-estetica-masculina-2488486"
+                target="_blank"> comunicare</a>
+        </div>
+    </footer>
+    <!--  <p>Esta etiqueta nos sirve para poder recopilar informacion del usuario <br>
+        Por ejemplo:</p>
+    <form action="/formulario" method="post"> <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+        <br>
+        <br>
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Apellido">
+        <br>
+        <br>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="forexample123">
+        <br>
+        <textarea name="comentario" id="comentario" cols="50" rows="10">Ingrese Comentario</textarea>
+        <br>
+        <input type="submit">
+        <br>
+        <button type="reset">Reiniciar</button>
+    </form>
+    <hr>
+    <h2>Etiqueta Lista</h2>
+    <p>La etiqueta Lista nos permite definir listas ordenadas o no ordenadas</p>
+    
+    <h3>ul o lista no ordenada</h3>
+
+    <h3>ol o lista ordenada</h3>
+    <ol>
+        <li>Elemento </li>
+        <li>Elemento </li>
+        <li>Elemento </li>
+        <li>Elemento </li>
+    </ol>
+    <table style="width: 400px;">
+        <thead>
+            <tr>
+                <th>producto</th>
+                <th>precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>arroz</td>
+                <td>45$</td>
+            </tr>
+            <tr>
+                <td>sopa</td>
+                <td>50$</td>
+            </tr>
+            <tr>
+                <td>otro producto mas</td>
+                <td>gratis</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total:95$</td>
+        </tfoot>
+    </table>-->
+</body>
+
+</html>

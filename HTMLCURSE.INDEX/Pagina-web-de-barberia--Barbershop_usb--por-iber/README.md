@@ -1,0 +1,2 @@
+# Pagina web de barberia "Barbershop_usb" por iber
+ ¡Bienvenidos a mi emocionante proyecto de página web de la Barbería USB! Esta es una creación única donde he desafiado mis habilidades y creatividad al máximo. En este proyecto, decidí destacar la versatilidad del lenguaje HTML al utilizar estilos directamente en el mismo documento, demostrando que la belleza y la funcionalidad pueden ir de la mano incluso sin el uso extensivo de CSS.

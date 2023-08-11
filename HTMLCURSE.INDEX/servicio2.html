@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbería</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        .header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .services-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 80%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding-top: 20px;
+        }
+
+        .service {
+            display: flex;
+            align-items: center;
+            background-color: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .service-image {
+            flex: 1;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .service-content {
+            flex: 1;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #333;
+            margin-top: 0;
+        }
+
+        p {
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Barbería Usb</h1>
+        <p>Tu lugar para cortes de pelo y cuidado de barba</p>
+    </div>
+
+    <div class="services-container">
+        <div class="service">
+            <div class="service-image" style="background-image: url('img/barberia2703.webp');">
+                <img src="img/barberia2703.webp" height="330x">Servicio de Corte
+            </div>
+            <div class="service-content">
+                <h2>Servicio de Corte de Pelo</h2>
+                <p>Nuestros expertos barberos te brindarán el mejor corte de pelo según tus preferencias y estilo.
+                    ¡Siéntete renovado y elegante con nuestro servicio de corte de pelo de calidad!</p>
+            </div>
+        </div>
+
+        <div class="service">
+            <div class="service-image" style="background-image: url('img/barba.jpg');">
+                <img src="img/barba.jpg" height="330px">
+            </div>
+            <div class="service-content">
+                <h2>Servicio de Afeitado de Barba</h2>
+                <p>Nuestro servicio de afeitado de barba te brindará una experiencia relajante y de cuidado
+                    personalizado. Nuestros barberos utilizarán técnicas de precisión para darte un afeitado suave y
+                    profesional.</p>
+            </div>
+        </div>
+
+        <!-- Puedes seguir agregando más bloques de servicio aquí -->
+
+    </div>
+</body>
+
+</html>
